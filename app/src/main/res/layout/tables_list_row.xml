@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="4dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/ic_insert_drive_file"
+        android:layout_width="@dimen/custom_handle_height_40dp"
+        android:layout_height="@dimen/custom_handle_height_40dp" />
+    <TextView
+        android:id="@+id/txtViewTableName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+</LinearLayout>
